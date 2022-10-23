@@ -19,16 +19,19 @@ The raw data set is uploaded to an S3 bucket in Amazon RDS. The Postgresql table
 **Customer DataFrame**
 
 ![Customer_df](https://user-images.githubusercontent.com/108022219/197396668-6f153186-0f49-4799-a25f-0bebb709dc4a.png)
-This shows the customer id and 
+
+This shows the customer id and count.
 
 **Product DataFrame**
 
 ![product_df](https://user-images.githubusercontent.com/108022219/197395018-19942c8c-54f0-4638-8d85-581f90e944f6.png)
+
 This shows the product by id and title. 
 
 **Reviews DataFrame**
 
 ![review_id_df](https://user-images.githubusercontent.com/108022219/197395019-e4c95110-06d4-4c6f-aff3-0e8e1a9f7b8d.png)
+
 This shows how the customer id and product information are linked to the reviews by id and review dates.
 
 The review data is then filtered into a table to only include reviews with 20 or more votes.
