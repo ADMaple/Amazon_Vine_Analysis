@@ -17,14 +17,17 @@ Deliverable 2: Determine Bias of Vine Reviews
 The raw data set is uploaded to an S3 bucket in Amazon RDS. The Postgres tables are already formatted to match the data frames that will be generated.
 
 **Customer DataFrame**
-![Customer_df](https://user-images.githubusercontent.com/108022219/197395017-443f4df9-0bde-4c64-8f79-fd7878d3f85d.png)
-This shows the customer count and customer id. 
+
+![Customer_df](https://user-images.githubusercontent.com/108022219/197396668-6f153186-0f49-4799-a25f-0bebb709dc4a.png)
+This shows the customer id and 
 
 **Product DataFram**
+
 ![product_df](https://user-images.githubusercontent.com/108022219/197395018-19942c8c-54f0-4638-8d85-581f90e944f6.png)
 This shows the product by id and title. 
 
 **Reviews DataFrame**
+
 ![review_id_df](https://user-images.githubusercontent.com/108022219/197395019-e4c95110-06d4-4c6f-aff3-0e8e1a9f7b8d.png)
 This shows how the customer id and product information are linked to the reviews by id and review dates.
 
