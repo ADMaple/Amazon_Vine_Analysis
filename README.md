@@ -14,14 +14,14 @@ Deliverable 2: Determine Bias of Vine Reviews
 -Software: AWS (RDS, S3), ProgreSQL, Google Colab, PySpark
 
 ## Analysis of Data
-The raw data set is uploaded to an S3 bucket in Amazon RDS. The Postgres tables are already formatted to match the data frames that will be generated.
+The raw data set is uploaded to an S3 bucket in Amazon RDS. The Postgresql tables are already formatted to match the data frames that will be generated.
 
 **Customer DataFrame**
 
 ![Customer_df](https://user-images.githubusercontent.com/108022219/197396668-6f153186-0f49-4799-a25f-0bebb709dc4a.png)
 This shows the customer id and 
 
-**Product DataFram**
+**Product DataFrame**
 
 ![product_df](https://user-images.githubusercontent.com/108022219/197395018-19942c8c-54f0-4638-8d85-581f90e944f6.png)
 This shows the product by id and title. 
@@ -44,10 +44,13 @@ The vine dataframe is created which shows the customer, product, and review data
 From the dataframes created previously I was able to find the percentage of paid and unpaid 5-star reviews.
 
 **Paid Reviews**
+
 ![Paid_reviews](https://user-images.githubusercontent.com/108022219/197395945-b1b0ff3d-f0d5-4985-b15a-4dc92ce52c53.png)
 
 There are a total of 107 paid reviews, with 56 of those reviews being 5 star. The paid 5 star reviews make up 52%
 
+
+**Unpaid Reveiws**
 
 ![Unpaid_reviews](https://user-images.githubusercontent.com/108022219/197395946-af6c46b7-48fc-4a19-9583-4a27ee5a39f4.png)
 
